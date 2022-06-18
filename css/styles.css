@@ -1,4 +1,4 @@
-.link {
+.link{
     text-decoration: none;
 }
 
@@ -330,7 +330,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .bussines-section-image-title{
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -436,7 +436,7 @@ padding-bottom: 30px;
 .constant-clients-title{
 font-weight: 700;
 font-size: 36px;
-line-height: 1,16;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 margin-bottom: 50px;
@@ -616,6 +616,7 @@ color: var(--logo-black-theme-color)
 }
 
 .subscription-input{
+    color: #EEEEEE;
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -829,6 +830,11 @@ color: var(--logo-black-theme-color)
     outline: 2px solid #212121;
 }
 
+.contact-form-checkbox-link{
+    color: var(--accent-color);
+}
+
+
 .contact-form-btn{
     align-self: center;
     font-weight: 700;
@@ -981,7 +987,7 @@ color: var(--logo-black-theme-color)
 }
 
 .projects-list-item {
-    flex-basis: calc((100% - 90px)) / 3;
+    flex-basis: calc(((100% - 90px))/3);
   }
   .projects-list-item:not(:nth-child(3n)) {
     margin-right: 30px;
