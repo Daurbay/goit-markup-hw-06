@@ -734,6 +734,7 @@ color: var(--logo-black-theme-color)
 
 .contact-form-field{
     margin-bottom: 10px;
+    position: relative;
 }
 
 .contact-form-field-title{
@@ -744,17 +745,11 @@ color: var(--logo-black-theme-color)
     color: var(--description-text-color);
 }
 
-.contact-form-input-div{
-    position: relative;
-    margin-top: 4px;
-}
-
 .contact-form-icon{
     position: absolute;
     fill: var(--logo-white-theme-color);
     top: 50%;
     left: 12px;
-    transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-form-input:focus + .contact-form-icon{
@@ -806,6 +801,10 @@ color: var(--logo-black-theme-color)
     align-items: center;
     font-size: 14px;
     margin-bottom: 30px;
+}
+
+.contact-form-checkbox-label-link{
+    color: var(--accent-color);
 }
 
 .contact-form-checkbox-label::before{
